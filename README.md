@@ -18,6 +18,6 @@ You can also speed yourself up, to prevent being eaten, but be careful sprint ti
 
 ### Compile
 
-It is pretty simple to compile the project.
-
-You just need to execute ``make`` command in ``build`` directory.
+At first you need to install Raylib from [here]("https://github.com/raysan5/raylib") and compile it by executing ``make`` command in ``raylib/src/`` directory.
+Then Add the ``raylib.h`` file in the ``/include`` directory of this repository, and Add the ``library.a`` in the ``/lib`` directory of this repository.
+And execute the ``make`` command in the ``/build`` directory.
